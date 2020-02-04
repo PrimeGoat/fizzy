@@ -1,6 +1,6 @@
 function fizzy(num) {
   let output = "";
-  
+
   if(num % 3 == 0) {
     output += "Fizz";
   }
@@ -8,11 +8,7 @@ function fizzy(num) {
     output += "Buzz";
   }
 
-  if(output.length > 0) {
-    return output;
-  } else {
-    return num;
-  }
+  return (output) ? output : num;
 }
 
 module.exports = {
