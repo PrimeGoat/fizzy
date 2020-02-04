@@ -8,7 +8,7 @@ function fizzy(num) {
     output += "Buzz";
   }
 
-  return (output) ? output : num;
+  return output ? output : num;
 }
 
 module.exports = {
