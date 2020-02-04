@@ -1,5 +1,6 @@
 function fizzy(num) {
   let output = "";
+  
   if(num % 3 == 0) {
     output += "Fizz";
   }
